@@ -1,9 +1,9 @@
 $(document).ready(function(){
-      $('.bxslider').bxslider({
-        auto: true,
-        autocontrols: true;
-      });
 
+        $('.bxslider').bxSlider({
+          auto: true,
+          autoControls: true
+        });
       $('#MenuIcon').click(function(){
 
         if($('#PrimaryNavigation').hasClass('switch')){
@@ -29,7 +29,6 @@ $(document).ready(function(){
       $('#PageTop').fadeOut();
   }
 });
-// window scroll end
 
 $('#PageTop>a').click(function(){
   $('body,html').animate({
