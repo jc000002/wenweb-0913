@@ -1,0 +1,45 @@
+/*--------animate-------*/
+@charset "UTF-8";
+
+.skewLeft{
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: skewLeft;
+  animation-name: skewLeft;
+}
+.skewRight{
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: skewRight;
+  animation-name: skewRight;
+
+}
+.smallMiddle{
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: smallMiddle;
+  animation-name: smallMiddle;
+
+}
+@-webkit-keyframes skewLeft {
+  from { -webkit-transform: perspective(1000) scale(1,1) rotateY(0deg) translate(-400px);  }
+  to   { -webkit-transform: perspective(1000) scale(0.6,0.7) rotateY(40deg) translate(-400px); }
+}
+}
+
+@keyframes skewLeft {
+  from { transform: perspective(1000) scale(1,1) rotateY(0deg) translate(-400px);  }
+  to   { transform: perspective(1000) scale(0.6,0.7) rotateY(40deg) translate(-400px); }
+}
+}
+@-webkit-keyframes skewRight {
+  from { -webkit-transform: perspective(1000) scale(1,1) skew(1deg, -12deg) translate(800px);  }
+  to   { -webkit-transform: perspective(1000) scale(0.6,0.7) skew(1deg, 12deg) translate(800px); }
+}
+}
+
+@keyframes skewRight {
+  from { transform: perspective(1000) scale(1,1) skew(1deg, -12deg) translate(800px);  }
+  to   { transform: perspective(1000) scale(0.6,0.7) skew(1deg, -12deg) translate(800px); }
+}
+}

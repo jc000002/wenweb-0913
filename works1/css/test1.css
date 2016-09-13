@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+#all {
+	background-image: url(images/bg2.jpg);
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	height: 158px;
+	background-image: url(images/jozoara-coffee-shop2.jpg);
+}
+#left {
+	width: 199px;
+	float: left;
+	background-color: #99CC00;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+#content {
+	float: left;
+	width: 500px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-right: 11px;
+	padding-bottom: 10px;
+	padding-left: 11px;
+}
+#right {
+	float: left;
+	width: 199px;
+	border-radius: 20px;
+	background-color: #0099FF;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+#footer {
+	height: 90px;
+	background-color: #EBF009;;
+	clear: both;
+	height: 70px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+body {
+	font-size: 11pt;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #EAEAEA;
+	margin-top: 30px;
+}
+h1 {
+	font-size: 16pt;
+	color: #03F;
+}
+
+.font-style1 {
+	font-weight: bold;
+	color: #F0C;
+}
+
+a:link {
+	color: #0C0;
+}
+a:visited {
+	color: #66C;
+}
+a:hover {
+	color: #FC0;
+}
+a:active {
+	color: #F00;
+}
+#all #left ul li {
+	font-size: 12pt;
+	background-color: #DDD;
+	padding: 5px;
+	list-style-image: url(images/mic1.gif);
+	list-style-position: outside;
+	list-style-type: none;
+	border: 1px solid #CCC;
+}
+#all #right ul li {
+	font-size: 12pt;
+	background-color: #DDD;
+	padding: 5px;
+	list-style-image: url(images/mic1.gif);
+	list-style-position: outside;
+	list-style-type: none;
+	border: 1px solid #CCC;
+}
+.box{
+  width: 80%;
+  padding-top:30px;
+  margin:auto;
+}
+.box>ul{
+  list-style-image:none;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+.box>ul>li{
+  width: 48%;
+  height: 210px;
+  display:block;
+  position:relative;
+  margin-right: 1%;
+  margin-left: 1%;
+  float:left;
+  overflow:hidden;
+  margin-bottom:10px;
+}
+.box img{
+  max-width: 100%;
+  float:left;
+}
+.cover{
+  width:100%;
+  height:230px;
+  display:block;
+  background: orange;
+  position:absolute;
+  text-align:center;
+  top: -175px;
+  z-index:2;
+}
+.box>ul>li>h1{
+  padding-top:80px;
+  font-family:"微軟正黑體";
+  color: #fff;
+  position:absolute;
+  z-index:3;
+  font-size: 30px;
+  left:-250px;
+}
+.box>ul>li>h3{
+  padding-top:120px;
+  font-family:"微軟正黑體";
+  color: #fff;
+  position:absolute;
+  z-index:3;
+  font-size:20px;
+  left:300px;
+}
+.logo{
+	margin: 0px auto;
+	text-align: center;
+
+}
